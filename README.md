@@ -1,24 +1,23 @@
 # TensorFlow Chatbot with OpenAI Integration
+![TensorFlow](https://img.shields.io/badge/Built%20with-TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
 
-## ⚠️ Use at Your Own Risk
+![Python 3.x](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-LTS-339933?logo=nodedotjs&logoColor=white)
+![OpenAI API](https://img.shields.io/badge/OpenAI-API-412991?logo=openai&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Web_App-000000?logo=flask&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-Frontend-7952B3?logo=bootstrap&logoColor=white)
 
-Hey! Just a heads-up — this app is shared for learning and experimenting. If you want to use it for something serious, it’s best to **fork the repo** and make your own copy.
-
-Feel free to dive in, play around, and make it your own — but keep in mind:
-
-- There's **no guarantee** everything will work perfectly.
-- Make sure to **check the code and dependencies** yourself.
-- Test things out before using it in anything important.
-
-Basically: use it, tweak it, break it, fix it — just know it's all **at your own risk**. 😉
-
-[![Creative Commons License](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)  
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Overview
 This project implements a **chatbot** application built using **TensorFlow** and integrated with **OpenAI's GPT-3** (or GPT-4) API. The application allows users to interact with the chatbot in real-time, leveraging the power of OpenAI’s language model to provide human-like responses. Additionally, the chatbot can interpret code snippets and run JavaScript directly in the browser.
 
 The project demonstrates how TensorFlow, OpenAI, and a custom-built Flask server can be used together to provide intelligent conversational experiences.
+
+## 📸 Preview
+
+Here's a quick look at the app in action:
+
+![App Preview](./images/chatbot-image.png)
 
 ## Features
 
@@ -129,3 +128,19 @@ This will run the app using Gunicorn as the WSGI server.
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## ⚠️ Use at Your Own Risk
+
+Hey! Just a heads-up — this app is shared for learning and experimenting. If you want to use it for something serious, it’s best to **fork the repo** and make your own copy.
+
+Feel free to dive in, play around, and make it your own — but keep in mind:
+
+- There's **no guarantee** everything will work perfectly.
+- Make sure to **check the code and dependencies** yourself.
+- Test things out before using it in anything important.
+
+Basically: use it, tweak it, break it, fix it — just know it's all **at your own risk**. 😉
+
+[![Creative Commons License](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)  
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
