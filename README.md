@@ -1,5 +1,20 @@
 # TensorFlow Chatbot with OpenAI Integration
 
+## ⚠️ Use at Your Own Risk
+
+Hey! Just a heads-up — this app is shared for learning and experimenting. If you want to use it for something serious, it’s best to **fork the repo** and make your own copy.
+
+Feel free to dive in, play around, and make it your own — but keep in mind:
+
+- There's **no guarantee** everything will work perfectly.
+- Make sure to **check the code and dependencies** yourself.
+- Test things out before using it in anything important.
+
+Basically: use it, tweak it, break it, fix it — just know it's all **at your own risk**. 😉
+
+[![Creative Commons License](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)  
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
 ## Overview
 This project implements a **chatbot** application built using **TensorFlow** and integrated with **OpenAI's GPT-3** (or GPT-4) API. The application allows users to interact with the chatbot in real-time, leveraging the power of OpenAI’s language model to provide human-like responses. Additionally, the chatbot can interpret code snippets and run JavaScript directly in the browser.
 
@@ -103,3 +118,14 @@ To deploy the app in a production environment, use a WSGI server like Gunicorn o
 ```bash
 pip install gunicorn
 ```
+
+2.	**Start the app with Gunicorn:**
+```bash
+gunicorn app:app
+```
+
+This will run the app using Gunicorn as the WSGI server.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
